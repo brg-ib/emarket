@@ -1,0 +1,2 @@
+class Enseigne < ApplicationRecord
+end
