@@ -1,0 +1,2 @@
+class Avis < ApplicationRecord
+end
