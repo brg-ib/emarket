@@ -48,7 +48,7 @@ enseignes = Enseigne.create([
     },
     { 
         titre: 'Au Top !', 
-        description: 'Livraison rapide en 1 jour', 
+        description: 'Merci.', 
         score: 5, 
         enseigne: enseignes.first 
     },
