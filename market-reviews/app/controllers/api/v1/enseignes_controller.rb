@@ -1,6 +1,8 @@
 module Api
     module V1
       class EnseignesController < ApplicationController
+        protect_from_forgery with: :null_session
+
         def index
           enseignes = Enseigne.all
           render json: EnseigneSerializer.new(enseignes).serialized_json
